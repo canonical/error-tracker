@@ -17,7 +17,7 @@ jobs:
     strategy:
       fail-fast: false
     container:
-      image: ubuntu:plucky
+      image: ubuntu:plucky-20250714
     steps:
       - uses: actions/checkout@v4
       - name: Install dependencies
